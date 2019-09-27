@@ -1,0 +1,30 @@
+<script src="./rhythmena.js" charset="utf-8"></script>
+<script type="text/javascript">
+    let count = 8;
+    let lines = `3 4`;
+</script>
+<input type="text" name="" value="8" onchange="count=this.value; f()">
+<br/>
+<input type="text" name="" value="3 4" onchange="lines=this.value; f()">
+<br/>
+<button type="button" name="button" onclick="f()">update</button>
+<style media="screen">
+    body {
+        font-family: monospace;
+        font-size: 48px;
+        color: #999;
+    }
+    b {
+        font-weight: 400;
+        color: #000;
+    }
+</style>
+<div id="value">
+
+</div>
+<script type="text/javascript">
+    const f = () => {
+        document.querySelector(`#value`).innerHTML = generateUniHtml(count, lines);
+    };
+    f();
+</script>
