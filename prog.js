@@ -20,9 +20,9 @@ const chrodsCounts = [2,3,4];
 const basicModes = [
     `Major (wwhwwwh)`,
     `Minor (whwwhww)`,
-    `Melodic Minor (whwwwwh)`,
-    `Harmonic minor (whwwhah)`,
-    `Harmonic Major (wwhwhah)`,
+//     `Melodic Minor (whwwwwh)`,
+//     `Harmonic minor (whwwhah)`,
+//     `Harmonic Major (wwhwhah)`,
 ];
 
 const modes = [
